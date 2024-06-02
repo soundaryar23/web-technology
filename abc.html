@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Highlight on Hover</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 1200px;
+        }
+
+        .gallery a {
+            display: block;
+            width: 23%;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .gallery a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery a:visited {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <a href="#">
+            <img src="https://via.placeholder.com/300" alt="Picture 1">
+        </a>
+        <a href="#">
+            <img src="https://via.placeholder.com/300" alt="Picture 2">
+        </a>
+        <a href="#">
+            <img src="https://via.placeholder.com/300" alt="Picture 3">
+        </a>
+        <a href="#">
+            <img src="https://via.placeholder.com/300" alt="Picture 4">
+        </a>
+    </div>
+</body>
+</html>

@@ -6,24 +6,18 @@
     <title>Google</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            text-align: center;
+           
+        background-color: rgb(243, 248, 246);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-between;
+        border-bottom: 25rem;
+        flex-direction: column-reverse;
         }
         
-
-        .container {
-            margin-top: 100px;
-        }
-
-        .logo {
-            margin-bottom: 40px;
-        }
-
         .search-box {
-            width: 50%;
+            width: 70%;
             max-width: 600px;
             margin: 0 auto;
         }
@@ -43,7 +37,7 @@
             margin-bottom: 30px;
         }
 
-        .search-buttons input[type="button"] {
+        .search-buttons  {
             padding: 10px 20px;
             font-size: 14px;
             margin: 5px;
@@ -54,14 +48,15 @@
             cursor: pointer;
         }
 
-        .search-buttons input[type="button"]:hover {
+        .search-buttons :hover {
             background-color: #e8e8e8;
         }
         .gallery {
             display: flex;
             justify-content:space-between;
-            width: 80%;
-            max-width: 1200px;
+            width: 85%;
+            max-width: 1000px;
+            border-radius: 3%;
         }
 
         .gallery a {
@@ -73,7 +68,7 @@
         }
 
         .gallery img {
-            width: 100%;
+            width: 75%;
             height: auto;
             display: block;
         }
@@ -82,14 +77,21 @@
             transform: scale(1.05);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         }
-
+    .logo img{
+        width: 272px;
+        height: 92px;
+        margin-bottom: 20px;
+        margin-left:120px;
+        margin-top: 100px;
+    }
        
      </style>
 </head>
 <body>
-    <div class="container">
+    <div>
         <div class="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+           >
         </div>
         <div class="search-box">
             <input type="text" placeholder="Search Google or type a URL">
@@ -102,9 +104,9 @@
         <a href="#">
         <img src="https://up.yimg.com/ib/th?id=OIP.912Uh02FWn_PzJItiaxegAHaFQ&pid=Api&rs=1&c=1&qlt=95&w=167&h=118"></a>
         <a href="#">
-        <img src="https://s.yimg.com/fz/api/res/1.2/uKOnZCqEHPIZeQAKfP6qAw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD03MjtweG9mZj0wO3B5b2ZmPTA7cT04MDt3PTcy/https://s.yimg.com/zb/imgv1/051c505f-dc29-3303-81b2-5828c6e3b2e2/t_500x300">
-    </a>
+        <img src="https://up.yimg.com/ib/th?id=OIP.j-3vUMvS42mUHOHjpgAAWQHaEK&pid=Api&rs=1&c=1&qlt=95&w=187&h=105">
+         </a>
         </div>
-</div>
+   </div>
 </body>
 </html>
